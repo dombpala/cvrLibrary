@@ -139,7 +139,6 @@ public class RollingWindow {
      * @param time_interval valor entero que representa el valor de tiempo utilizado como umbral para la ventana. Debe ser mayor a cero.
      * @param time_unit valor tipo ChronoUnit que indica la unidad de tiempo en el que se encuentra time_interval. Sólo se aceptan HOURS, 
      * MINUTES y SECONDS como unidades de tiempo válidas para el análisis.
-     * @param window_min valor entero que representa el número de elementos mínimos que debe tener una ventana para ser considerada válida.
      * @param window_x valor entero que representa el número de ventanas que se utilizan para el cálculo del valor final.
      * @param min_accuracy valor flotante que representa la precisión mínima que debe tener un dato para ser considerado válido dentro del 
      * análisis. Debe estar entre 0 y 1, siendo 0 la precisión mínima y 1 la precisión máxima.
